@@ -74,34 +74,36 @@
 	</h1>
 	<h2 class="display-4 text-capitalize">web make by bootstrap5</h2>
 	<div class=btn-group" role="group">
-		<button ara-controls="#" class="btn btn-outline-danger text-uppercase" data-bs-target="#"
+		<button aria-controls="#offcanvas-Portfolio" class="btn btn-outline-danger text-uppercase"
+		        data-bs-target="#offcanvas-Portfolio"
 		        data-bs-toggle="offcanvas" type="button">
 			My Portfolio
 		</button>
-		<button ara-controls="#" class="btn btn-outline-danger text-uppercase" data-bs-target="#"
+		<button aria-controls="#Email-canvas" class="btn btn-outline-danger text-uppercase"
+		        data-bs-target="#Email-canvas"
 		        data-bs-toggle="offcanvas" type="button">
 			<i class="bi bi-envelope-open"></i>
 		</button>
 	</div>
 
 	<div class="row mt-3">
-		<div class="col-md-6 mt-3" >
-		<div class="collapse multi-collapse" id="about">
-			<div class="card card-body text-start shadow bg-dark" style="--bs-bg-opacity: .5;">
-				<h5 class="card-title text-danger">About</h5>
-				<div class="card-text">
-					<h3 class="text-white-50 ms-3">Portfolio</h3>
-					<ul class="list-unstyled ms-5 text-capitalize">
-						<li>fist web make by bootstrap 5</li>
-						<li>Full Stack Web Developer</li>
-						<li>university of information and technology in hcm city</li>
-					</ul>
+		<div class="col-md-6 mt-3">
+			<div class="collapse multi-collapse" id="about">
+				<div class="card card-body text-start shadow bg-dark" style="--bs-bg-opacity: .5;">
+					<h5 class="card-title text-danger">About</h5>
+					<div class="card-text">
+						<h3 class="text-white-50 ms-3">Portfolio</h3>
+						<ul class="list-unstyled ms-5 text-capitalize">
+							<li>fist web make by bootstrap 5</li>
+							<li>Full Stack Web Developer</li>
+							<li>university of information and technology in hcm city</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-		</div>
 
-		<div class="col-md-6 mt-3" >
+		<div class="col-md-6 mt-3">
 			<div class="collapse multi-collapse" id="contact">
 				<div class="card card-body text-start shadow bg-dark" style="--bs-bg-opacity: .5;">
 					<h5 class="card-title text-danger">Contact</h5>
@@ -110,7 +112,8 @@
 						<ul class="list-unstyled ms-5">
 							<li><i class="bi bi-envelope-open"></i> Email: haohan2801@gmail.com</li>
 							<li><i class="bi bi-telephone-forward"></i> Phone: 0923460051</li>
-							<li><i class="bi bi-facebook"></i>Facebook: <a href="#" class="stretched-link">https://www.facebook.com/profile.php?id=100029866783334</a> </li>
+							<li><i class="bi bi-facebook"></i>Facebook: <a class="stretched-link" href="#">https://www.facebook.com/profile.php?id=100029866783334</a>
+							</li>
 
 						</ul>
 					</div>
@@ -128,6 +131,35 @@
 		src="https://images.unsplash.com/photo-1643101679254-986a9dab634d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80"
 />
 
+<!--off-canvas Portfolio-->
+<div aria-labelledby="offcanvas-Portfolio" class="offcanvas offcanvas-start bg-dark" id="offcanvas-Portfolio">
+	<div class="offcanvas-header">
+		<h1 class="offcanvas-title">My Portfolio</h1>
+	</div>
+	<div class="offcanvas-body">
+		<p>Đây là website được làm hoàn toàn bằng Bootstrap5</p>
+		<ul class="list-group">
+			<li class="list-group-item list-group-item-info mb-2">Sharing on github</li>
+			<li class="list-group-item list-group-item-primary mb-2">Template Portfolio</li>
+			<li class="list-group-item list-group-item-danger mb-2">Making by myself</li>
+		</ul>
+	</div>
+</div>
+
+<!--Email-Offcanvas-->
+<div aria-labelledby="offcanvas-Portfolio" class="offcanvas offcanvas-bottom bg-dark" id="Email-canvas">
+	<div class="offcanvas-header">
+		<h1 class="offcanvas-title">My Portfolio</h1>
+	</div>
+	<div class="offcanvas-body">
+		<p>Đây là website được làm hoàn toàn bằng Bootstrap5</p>
+		<ul class="list-group">
+			<li class="list-group-item list-group-item-info">Sharing on github</li>
+			<li class="list-group-item list-group-item-primary">Template Portfolio</li>
+			<li class="list-group-item list-group-item-danger">Making by myself</li>
+		</ul>
+	</div>
+</div>
 
 <!--BOOTSTRAP CDN-->
 
